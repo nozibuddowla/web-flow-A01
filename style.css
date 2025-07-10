@@ -131,3 +131,53 @@ nav {
     font-weight: 700;
     font-size: 80px;
 }
+
+.users-feedback {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.users-feedback-items {
+    display: flex;
+    gap: 20px;
+}
+.users-feedback-item {
+    max-width: 366px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+    padding: 24px;
+    box-shadow: rgba(242, 237, 237, 1) 0px 1px 4px;
+    margin-bottom: 137px;
+}
+.users-feedback h3 {
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.rating i {
+    color: #FFB805;
+    margin-bottom: 24px;
+}
+.users-feedback-title {
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.users-feedback-description {
+    color: #1E1E1E;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+.reviewer-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #757575;
+}
+.date {
+    color: #B3B3B3;
+}
