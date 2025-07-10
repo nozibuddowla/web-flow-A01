@@ -19,7 +19,22 @@
 .primary-color {
     color: #4E47FF;
 }
-
+.sign-up-btn {
+    font-weight: 700;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    line-height: 150%;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.section-title-color {
+    color: #252432;
+}
+.text-secondary {
+    color: rgba(37, 36, 50, 0.5);
+}
 .text-center {
     text-align: center;
 }
@@ -47,16 +62,6 @@ nav {
     line-height: 150%;
 }
 
-.sign-up-btn {
-    font-weight: 700;
-    background-color: #4E47FF;
-    color: #FFFFFF;
-    line-height: 150%;
-    padding: 12px 36px;
-    border: none;
-    border-radius: 10px;
-}
-
 .banner {
     max-width: 905px;
     margin: 0 auto;
@@ -65,11 +70,33 @@ nav {
 .banner h1 {
     font-weight: 700;
     font-size: 65px;
-    color: #252432;
     margin-top: 158px;
     margin-bottom: 37px;
 }
 
 .banner button {
     margin-bottom: 152px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 116px;
+}
+.action-content {
+    max-width: 517px;
+}
+.action-content h4 {
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.action-content p {
+    margin-bottom: 23px;
+}
+.action img {
+    border-radius: 48px;
 }
