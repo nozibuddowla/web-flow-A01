@@ -181,3 +181,26 @@ nav {
 .date {
     color: #B3B3B3;
 }
+
+.focus {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 75px 150px;
+    box-shadow: rgba(242, 237, 237, 1) 0px 1px 4px;
+}
+.focus-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+}
+.focus-description {
+    margin: 20px 0;
+}
+.focus-btn {
+    margin-bottom: 20px;
+}
+.focus-image {
+    border-radius: 48px;
+}
