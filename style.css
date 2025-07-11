@@ -41,6 +41,9 @@
 .primary-background-color {
     background-color: rgba(78, 71, 255, 0.1);
 }
+.section-background-color {
+    background-color: #F5F8FF;
+}
 .text-center {
     text-align: center;
 }
@@ -90,7 +93,7 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 116px;
+    padding-top: 116px;
 }
 .action-content {
     max-width: 517px;
@@ -203,4 +206,58 @@ nav {
 }
 .focus-image {
     border-radius: 48px;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-title {
+    max-width: 528px;
+}
+.section-title-text {
+    font-weight: 700;
+    font-size: 97px;
+    line-height: 120%;
+    padding: 200px 0;
+}
+.contact-form {
+    padding: 70px 0;
+}
+.form-label {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-form input[type="email"], .contact-form input[type="text"], .contact-form textarea{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 32px;
+    display: block;
+    width: 497px;
+    border-radius: 10px;
+    border: none;
+}
+.contact-form input[type="email"], .contact-form input[type="text"] {
+    height: 70px;
+}
+.contact-form textarea {
+    height: 135px;
+    margin-bottom: 19px;
+}
+.get-in-touch-btn {
+    font-weight: 700;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    line-height: 150%;
+    padding: 19px 201px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
