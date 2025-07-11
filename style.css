@@ -19,15 +19,26 @@
 .primary-color {
     color: #4E47FF;
 }
-.sign-up-btn {
+.sign-up-btn, .get-in-touch-btn {
     font-weight: 700;
     background-color: #4E47FF;
     color: #FFFFFF;
     line-height: 150%;
-    padding: 12px 36px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sign-up-btn {
+    padding: 12px 36px;
+}
+.get-in-touch-btn {
+    padding: 19px 201px;
+}
+.sign-up-btn:hover, .get-in-touch-btn:hover {
+    background-color: #3a35cc;
+    transform: translateY(-2px);
 }
 .section-title-color {
     color: #252432;
@@ -159,8 +170,7 @@ nav a, footer a {
     font-size: 42px;
     margin-bottom: 50px;
 }
-.rating i {
-    color: #FFB805;
+.rating {
     margin-bottom: 24px;
 }
 .users-feedback-title {
@@ -252,16 +262,6 @@ nav a, footer a {
 .contact-form textarea {
     height: 135px;
     margin-bottom: 19px;
-}
-.get-in-touch-btn {
-    font-weight: 700;
-    background-color: #4E47FF;
-    color: #FFFFFF;
-    line-height: 150%;
-    padding: 19px 201px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
 .footer {
